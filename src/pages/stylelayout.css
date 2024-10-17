@@ -1,0 +1,11 @@
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: wheat;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}

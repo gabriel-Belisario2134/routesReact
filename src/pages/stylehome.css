@@ -1,0 +1,12 @@
+.container1 {
+    text-align: center;
+    margin-top: 50px;
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
+
+.text1 {
+    align-items: center;
+    text-align: center;
+}
