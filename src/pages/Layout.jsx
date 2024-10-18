@@ -4,16 +4,24 @@ import React from "react";
 
 const Layout = () => {
   return (
-    <>
-      <nav className="navigation">
-            <Link to="/">Home</Link>
-            <Link to="/blogs">Blogs</Link>
-            <Link to="/contact">Contact</Link>
+    <div className="layout">
+      <nav className="navigation" aria-label="Main Navigation">
+        <ul>
+          <li>
+            <Link to="/" aria-label="Go to Home">Home</Link>
+          </li>
+          <li>
+            <Link to="/blogs" aria-label="View Blogs">Blogs</Link>
+          </li>
+          <li>
+            <Link to="/contact" aria-label="Contact Us">Contact</Link>
+          </li>
+        </ul>
       </nav>
-
+      
       <Outlet />
-    </>
-  )
+    </div>
+  );
 };
 
 export default Layout;

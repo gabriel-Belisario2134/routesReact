@@ -1,11 +1,35 @@
-nav {
-    height: 100px;
-    width: 100%;
-    background-color: wheat;
-}
-
-.navigation {
-    display: flex;
+.layout {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  .navigation {
+    background-color: #4B371C;
+    padding: 1rem; 
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    display: flex; 
     justify-content: space-around; 
-    align-items: center;
-}
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  .navigation li {
+    margin: 0;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .navigation a:hover {
+    background-color: #795C34;
+    border-radius: 5px;
+  }
