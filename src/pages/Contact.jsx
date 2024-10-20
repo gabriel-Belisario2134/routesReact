@@ -17,7 +17,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="containercontact">
+        <div className="containerhome">
           <div className="principal">
             <h1>Contato</h1>
             {submitted && <p className="success-message">Mensagem enviada com sucesso!</p>}
